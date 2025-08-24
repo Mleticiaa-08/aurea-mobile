@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 const SignUp = () => {
   return (
     <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center justify-center px-4 pt-20 pb-10">
-      {/* Título Principal */}
-      
-      {/* Subtítulo */}
+
       <h2 className="text-[20px] font-playfairsc font-bold text-[#61372F] text-center mb-8">
         CRIE SUA CONTA NO ÁUREA
       </h2>
@@ -16,7 +14,7 @@ const SignUp = () => {
       </p>
 
       <div className="w-full max-w-md bg-[#DEC8BC] border-2 border-[#CDA6A2] rounded-lg p-6">
-        {/* Seção de Foto */}
+
         <div className="mb-6">
           <h3 className="text-[16px] font-playfairsc text-[#61372F] text-center mb-4">
             Escolher foto
@@ -28,9 +26,8 @@ const SignUp = () => {
           </div>
         </div>
 
-        {/* Formulário de Cadastro */}
         <div className="space-y-4">
-          {/* Campo Nome */}
+ 
           <div>
             <label className="block text-[14px] font-poppins font-medium text-[#61372F] mb-1">
               Nome
@@ -42,7 +39,6 @@ const SignUp = () => {
             />
           </div>
 
-          {/* Campo Email */}
           <div>
             <label className="block text-[14px] font-poppins font-medium text-[#61372F] mb-1">
               Email
@@ -54,7 +50,6 @@ const SignUp = () => {
             />
           </div>
 
-          {/* Campo Senha */}
           <div>
             <label className="block text-[14px] font-poppins font-medium text-[#61372F] mb-1">
               Senha
@@ -66,7 +61,6 @@ const SignUp = () => {
             />
           </div>
 
-          {/* Campo Confirmar Senha */}
           <div>
             <label className="block text-[14px] font-poppins font-medium text-[#61372F] mb-1">
               Confirmar Senha
@@ -78,7 +72,6 @@ const SignUp = () => {
             />
           </div>
 
-          {/* Botão de Criar Conta */}
           <button className="w-full h-12 bg-[#61372F] rounded flex items-center justify-center mt-6">
             <span className="text-[16px] font-playfair font-bold text-[#FAE6DD]">
               CRIAR CONTA
