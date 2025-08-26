@@ -87,7 +87,7 @@ const Jogo = () => {
 
         <div className="flex flex-col md:flex-row md:justify-center md:items-start md:gap-16 md:mt-6">
 
-          <div className="w-full max-w-[160px] md:max-w-[180px] mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-8 md:mb-0"
+          <div className="w-full max-w-[160px] md:max-w-[180px] mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-8 md:mb-0 "
             style={{ borderRadius: '8px' }}>
             <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
               FUTURO

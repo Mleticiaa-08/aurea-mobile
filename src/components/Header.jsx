@@ -30,14 +30,11 @@ const Header = () => {
             <Link to="/jogo" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Jogo
             </Link>
-            <a href="#" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
-              Sobre
+            <a href="/Equipamentos" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+              Equipamentos
             </a>
-            <a href="#" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
-              Shop
-            </a>
-            <Link to="/login" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
-              Login
+            <Link to="/Referencias" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+              Referências
             </Link>
           </nav>
 
@@ -84,15 +81,12 @@ const Header = () => {
             <Link to="/jogo" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Jogo
             </Link>
-            <a href="#" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
-              Sobre
+            <a href="/Equipamentos" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+              Equipamentos
             </a>
-            <a href="#" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
-              Shop
+            <a href="/Referencias" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+              Referências
             </a>
-            <Link to="/login" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
-              Login
-            </Link>
           </nav>
         </div>
       </div>

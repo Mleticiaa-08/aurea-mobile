@@ -36,20 +36,20 @@ const HeroSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
 
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg text-center h-80">
-            <h3 className="text-2xl font-playfairsc font-bold text-[#61372F] mb-6">
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+            <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-6">
               EXPERIÊNCIA IMERSIVA
             </h3>
-            <p className="text-lg font-poppins text-[#61372F] leading-relaxed">
+            <p className="text-xl font-poppins text-[#61372F] mb-10  leading-relaxed"> 
               Você pode explorar, combinar e até comprar as peças diretamente pelo totem, sem precisar procurar nas araras.
             </p>
           </div>
 
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg text-center h-80">
-            <h3 className="text-2xl font-playfairsc font-bold text-[#61372F] mb-6">
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+            <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
               TECNOLOGIA PARA LOJAS INOVADORAS
             </h3>
-            <p className="text-lg font-poppins text-[#61372F] leading-relaxed">
+            <p className="text-xl font-poppins text-[#61372F] mb-8 leading-relaxed">
               Ideal para clientes que valorizam praticidade, estilo e atendimento inteligente, sem abrir mão do toque humano.
             </p>
           </div>
@@ -71,15 +71,15 @@ const HeroSection = () => {
           </Link>
         </div>
 
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20">
+        <div className="">
           <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-12">
             ÁUREA — A MODA INTELIGENTE
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 md:grid-cols-3 gap-8 flex-row">
   
-            <div className="text-center">
-              <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
+            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px] ">
+              <h4 className="text-center font-playfairsc font-bold text-[#61372F] mb-4">
                 DIFERENCIAL
               </h4>
               <p className="text-lg font-poppins text-[#61372F]">
@@ -87,7 +87,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20  w-[400px]">
               <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
                 PÚBLICO-ALVO
               </h4>
@@ -96,8 +96,8 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
+            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px]">
+              <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4 text-center">
                 OBJETIVO
               </h4>
               <p className="text-lg font-poppins text-[#61372F]">
