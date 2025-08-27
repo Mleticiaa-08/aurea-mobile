@@ -13,93 +13,165 @@ const Equipamentos = () => {
   return (
     <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-20 md:pt-28 pb-10 md:pb-16">
       
+      {/* Cabeçalho com título mais abaixo e subtítulo mais largo */}
       <div className="w-full max-w-3xl text-center mb-12">
-    
-        <h1 className="text-[30px] font-playfair font-bold text-[#61372F] mb-6">
+        <h1 className="text-2xl md:text-3xl font-playfair font-bold text-[#61372F] mb-6">
           ITENS UTILIZADOS
         </h1>
-        
-        {/* Subtítulo com 57px */}
         <div className="max-w-2xl mx-auto">
-          <p className="text-[20px] text-[#61372F] mb-2 font-poppins font-light italic">
-            Veja os níveis utilizados no projeto, seus valores e escolha
+          <p className="text-[#61372F] mb-2 font-poppins font-light italic">
+            Veja os itens utilizados no projeto, seus valores e escolha:  
           </p>
-          <p className="text-[16px] text-[#61372F] font-poppins font-light italic">
-            compre os materiais ou adquira a versão completa do Áurea
+          <p className="text-[#61372F] font-poppins font-light italic">
+            compre os materiais ou adquira a versão completa do Áurea com tudo pronto.
           </p>
-          <p className="text-[57px] text-[#61372F] font-poppins font-light italic">com tudo pronto.</p>
         </div>
       </div>
 
-      {/* Grid de 3x3 imagens reais */}
-      <div className="w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
-        {/* Linha 1 */}
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={esp32} 
-            alt="ESP32" 
-            className="w-full h-full object-cover"
-          />
+      {/* Grid de 3x3 com MAIS ESPAÇO NAS LATERAIS */}
+      <div className="w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-12">
+        {/* ESP32 */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 (ESP-32 DEVKIT)</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={esp32} 
+                alt="ESP32" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={esp32Cam} 
-            alt="esp32-cam" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* ESP32 CAMERA */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 CAMERA</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={esp32Cam} 
+                alt="ESP32 Camera" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={TabletAndroid}
-            alt="Tablet" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* TABLET ANDROID */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">TABLET ANDROID</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={TabletAndroid} 
+                alt="Tablet Android" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        
-        {/* Linha 2 */}
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={EspelhoMoldura}
-            alt="Espelho-moldura" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* ESPELHO COM MOLDURA */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESPELHO COM MOLDURA</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={EspelhoMoldura} 
+                alt="Espelho com Moldura" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={Led}
-            alt="Led" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* FITA LED 5M + FONTE */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">FITA LED 5M + FONTE</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={Led} 
+                alt="Fita LED" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={Cabo}
-            alt="Cabo" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* CABO MICRO USB */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">CABO MICRO USB</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={Cabo} 
+                alt="Cabo Micro USB" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        
-        {/* Linha 3 */}
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={Suporte}
-            alt="Suporte" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* SUPORTE ANTI-FURTO */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ANTI-FURTO</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={Suporte} 
+                alt="Suporte Anti-Furto" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={SuporteEspelho}
-            alt="SuporteEspelho" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* SUPORTE ESPELHO */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ESPELHO</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={SuporteEspelho} 
+                alt="Suporte Espelho" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg h-48 overflow-hidden">
-          <img 
-            src={Sensor}
-            alt="Sensor" 
-            className="w-full h-full object-cover"
-          />
+
+        {/* SENSOR ULTRASSÔNICO */}
+        <div className="flex flex-col items-center px-4">
+          <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SENSOR ULTRASSÔNICO</h3>
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
+               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
+                 style={{ width: '200px', height: '200px' }}>
+              <img 
+                src={Sensor} 
+                alt="Sensor Ultrassônico" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
 

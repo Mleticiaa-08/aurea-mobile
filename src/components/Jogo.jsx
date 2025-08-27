@@ -85,9 +85,12 @@ const Jogo = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row md:justify-center md:items-start md:gap-16 md:mt-6">
-
-          <div className="w-full max-w-[160px] md:max-w-[180px] mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-8 md:mb-0 "
+        {/* Container com os dois quadrados inferiores com o MESMO TAMANHO dos de cima */}
+        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-8 md:justify-center md:mt-6">
+          {/* Espaçadores vazios para centralizar os dois quadrados */}
+          <div className="hidden md:block"></div>
+          
+          <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-6 md:mb-0"
             style={{ borderRadius: '8px' }}>
             <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
               FUTURO
@@ -100,7 +103,7 @@ const Jogo = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-[160px] md:max-w-[180px] mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-8 md:mb-0"
+          <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col"
             style={{ borderRadius: '8px' }}>
             <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
               FASE FINAL
@@ -112,9 +115,11 @@ const Jogo = () => {
               A Monotonia domina. As reguas alucen. Mas diga, seu look e sua arma. Mistura decada; quabre padros a Derrido o vazio. Destile
             </p>
           </div>
+          
+          <div className="hidden md:block"></div>
         </div>
 
-        <div className="w-full flex justify-center mt-8 md:mt-12">
+        <div className="w-full flex justify-center mt-8 md:mt-10">
           <button className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#61372F] rounded-lg flex items-center justify-center"
             style={{ borderRadius: '6px' }}>
             <span className="text-[14px] md:text-[16px] font-poppins font-bold text-[#FAE6DD]">
