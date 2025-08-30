@@ -13,14 +13,14 @@ const Referencias = () => {
   ];
 
   return (
-    <div className="w-full pt-28 px-4 max-w-7xl mx-auto">
+    <div className="w-full pt-20 px-4 max-w-7xl mx-auto"> {/* Reduzido o padding-top */}
 
       {/* Versão Desktop */}
       <div className="hidden lg:block">
-        <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-20 pb-16">
+        <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-16 pb-16"> {/* Reduzido o padding-top */}
           
-          <div className="w-full max-w-3xl text-center mb-12">
-            <h1 className="text-4xl font-playfair font-bold text-[#61372F] mb-4">
+          <div className="w-full max-w-3xl text-center mb-8"> {/* Reduzido o margin-bottom */}
+            <h1 className="text-4xl font-playfair font-bold text-[#61372F] mb-3"> {/* Reduzido o margin-bottom */}
               REFERÊNCIAS
             </h1>
             <p className="text-2xl font-poppins font-light italic text-[#61372F]">
@@ -28,7 +28,7 @@ const Referencias = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-3xl space-y-5">
+          <div className="w-full max-w-3xl space-y-4"> {/* Reduzido o espaçamento entre os itens */}
             {links.map((link, index) => (
               <a 
                 key={index}
@@ -54,17 +54,17 @@ const Referencias = () => {
       </div>
 
       {/* Versão Mobile */}
-      <div className="lg:hidden flex flex-col justify-center items-center pt-24 px-4">
+      <div className="lg:hidden flex flex-col justify-center items-center pt-16 px-4"> {/* Reduzido o padding-top */}
         
-        <h1 className="text-[24px] font-playfair font-bold text-[#61372F] text-center mb-4">
+        <h1 className="text-[24px] font-playfair font-bold text-[#61372F] text-center mb-2"> {/* Reduzido o margin-bottom */}
           REFERÊNCIAS
         </h1>
         
-        <p className="text-[14px] font-poppins font-light italic text-[#61372F] text-center mb-8">
+        <p className="text-[14px] font-poppins font-light italic text-[#61372F] text-center mb-6"> {/* Reduzido o margin-bottom */}
           Artigos, Fontes e Materiais Consultados
         </p>
 
-        <div className="w-full space-y-4">
+        <div className="w-full space-y-3"> {/* Reduzido o espaçamento entre os itens */}
           {links.map((link, index) => (
             <a 
               key={index}
