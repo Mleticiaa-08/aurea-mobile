@@ -13,7 +13,6 @@ const Equipamentos = () => {
   return (
     <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-20 md:pt-28 pb-10 md:pb-16">
       
-      {/* Cabeçalho com título mais abaixo e subtítulo mais largo */}
       <div className="w-full max-w-3xl text-center mb-12">
         <h1 className="text-2xl md:text-3xl font-playfair font-bold text-[#61372F] mb-6">
           ITENS UTILIZADOS
@@ -28,9 +27,8 @@ const Equipamentos = () => {
         </div>
       </div>
 
-      {/* Grid de 3x3 com MAIS ESPAÇO NAS LATERAIS */}
       <div className="w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-12">
-        {/* ESP32 */}
+
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 (ESP-32 DEVKIT)</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -46,7 +44,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* ESP32 CAMERA */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 CAMERA</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -62,7 +59,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* TABLET ANDROID */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">TABLET ANDROID</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -78,7 +74,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* ESPELHO COM MOLDURA */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESPELHO COM MOLDURA</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -94,7 +89,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* FITA LED 5M + FONTE */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">FITA LED 5M + FONTE</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -110,7 +104,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* CABO MICRO USB */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">CABO MICRO USB</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -126,7 +119,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* SUPORTE ANTI-FURTO */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ANTI-FURTO</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -142,7 +134,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* SUPORTE ESPELHO */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ESPELHO</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
@@ -158,7 +149,6 @@ const Equipamentos = () => {
           </div>
         </div>
 
-        {/* SENSOR ULTRASSÔNICO */}
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SENSOR ULTRASSÔNICO</h3>
           <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"

@@ -85,9 +85,8 @@ const Jogo = () => {
           </div>
         </div>
 
-        {/* Container com os dois quadrados inferiores com o MESMO TAMANHO dos de cima */}
         <div className="grid grid-cols-1 md:grid-cols-4 md:gap-8 md:justify-center md:mt-6">
-          {/* Espaçadores vazios para centralizar os dois quadrados */}
+
           <div className="hidden md:block"></div>
           
           <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-6 md:mb-0"
