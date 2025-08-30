@@ -1,6 +1,5 @@
-// components/Header.jsx
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 import contrast1 from '../assets/ModoEscuro.png'; 
 
 const Header = () => {
@@ -30,9 +29,10 @@ const Header = () => {
             <Link to="/jogo" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Jogo
             </Link>
-            <a href="/Equipamentos" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+
+            <Link to="/Equipamentos" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Equipamentos
-            </a>
+            </Link>
             <Link to="/Referencias" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Referências
             </Link>
@@ -81,12 +81,13 @@ const Header = () => {
             <Link to="/jogo" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Jogo
             </Link>
-            <a href="/Equipamentos" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+
+            <Link to="/Equipamentos" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Equipamentos
-            </a>
-            <a href="/Referencias" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+            </Link>
+            <Link to="/Referencias" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Referências
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
