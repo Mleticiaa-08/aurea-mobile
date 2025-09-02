@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
-import contrast1 from '../assets/ModoEscuro.png'; 
+import contrast1 from '../assets/ModoClaro.png'; 
 
-const Header = () => {
+const HeaderDark = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,36 +15,36 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#FAE6DD] dark:bg-[#61372F] ">
+      <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#61372F] dark:bg-[#61372F] ">
         <div className="flex justify-between items-center max-w-6xl mx-auto">
   
           {/* Logo */}
-          <Link to="/" className="text-3xl lg:text-4xl font-playfair text-[#61372F] dark:text-[#DEC8BC]">
+          <Link to="/dark" className="text-3xl lg:text-4xl font-playfair text-[#b39889] dark:text-[#DEC8BC]">
             ÁUREA
           </Link>
          
           {/* Menu Desktop */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors ">
+            <Link to="/dark" className="text-[#b39889] text-lg font-playfair hover:text-[#7A4A42] transition-colors ">
               Home
             </Link>
-            <Link to="/jogo" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+            <Link to="/jogodark" className="text-[#b39889] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Jogo
             </Link>
-            <Link to="/equipamentos" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+            <Link to="/equipamentosdark" className="text-[#b39889] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Equipamentos
             </Link>
-            <Link to="/referencias" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
+            <Link to="/referenciasdark" className="text-[#b39889] text-lg font-playfair hover:text-[#7A4A42] transition-colors">
               Referências
             </Link>
           </nav>
 
           {/* Botão Dark Mode (Desktop) */}
           <div className="hidden md:flex items-center gap-6">
-            <Link to="/dark">
+            <Link to="/">
               <img 
                 src={contrast1} 
-                alt="Modo Escuro" 
+                alt="Modo Claro" 
                 className="w-6 h-6 object-contain cursor-pointer" 
               />
             </Link>
@@ -52,7 +52,7 @@ const Header = () => {
 
           {/* Mobile Menu */}
           <div className="flex items-center gap-4 md:hidden">
-            <Link to="/dark">
+            <Link to="/">
               <img 
                 src={contrast1} 
                 alt="Modo Escuro" 
@@ -84,7 +84,7 @@ const Header = () => {
       >
         <div className="pt-24 px-6">
           <nav className="flex flex-col space-y-6">
-            <Link to="/HeroSectionDark" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+            <Link to="/dark" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Home
             </Link>
             <Link to="/jogo" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
@@ -103,4 +103,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderDark;

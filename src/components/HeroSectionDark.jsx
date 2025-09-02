@@ -1,23 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import espelho from '../assets/Espelho.png';
+import espelho from '../assets/EspelhoDark.png';
 import isabela from '../assets/Isabela.png';
 import danielle from '../assets/Danielle.png';
 import leticia from '../assets/Leticia.png';
 import gabriela from '../assets/Gabriela.png';
 
-const HeroSection = () => {
+const HeroSectionDark = () => {
   return (
-    <div className="w-full pt-28 px-4 max-w-7xl mx-auto bg-[#FAE6DD]">
+    <div className="w-full pt-28 px-4 max-w-7xl mx-auto bg-[#61372F]">
 
       <div className="hidden lg:block">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="text-center lg:text-left">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfairsc text-[#61372F] mb-6">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfairsc text-[#B39889] mb-6">
               ONDE MODA E TECNOLOGIA SE ENCONTRAM.
             </h2>
-            <p className="text-lg md:text-xl font-poppins text-[#61372F] mb-8">
+            <p className="text-lg md:text-xl font-poppins text-[#B39889] mb-8">
               Navegue, experimente e compre – sem tocar nas araras.
             </p>
     
@@ -32,11 +32,11 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="w-full h-0.5 bg-[#CDA6A2] my-16"></div>
+        <div className="w-full h-0.5 bg-[#9b8072] my-16"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
 
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+          <div className="bg-[#B39889] border-[1.9px] border-[#2D1F1D] p-10 rounded-lg text-center h-80">
             <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-6">
               EXPERIÊNCIA IMERSIVA
             </h3>
@@ -45,7 +45,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+          <div className="bg-[#B39889] border-[1.9px] border-[#2D1F1D] p-10 rounded-lg text-center h-80">
             <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
               TECNOLOGIA PARA LOJAS INOVADORAS
             </h3>
@@ -55,7 +55,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center mb-20 max-w-2xl mx-auto h-96">
+        <div className="bg-[#B39889] border-[1.8px] border-[#2D1F1D] p-10 rounded-lg text-center mb-20 max-w-2xl mx-auto h-96">
           <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
             SUA ROUPA. SEU ESTILO. SUA LOJA, REPENSADA.
           </h3>
@@ -63,7 +63,7 @@ const HeroSection = () => {
             Com ÁUREA, vestir-se bem é tão simples quanto ser você mesmo. Descubra sugestões inteligentes e práticas direto no totem da loja.
           </p>
           <Link to="/funcionamento">
-            <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
+            <button className="bg-[#B39889] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
               <span className="text-xl font-playfair font-bold text-[#61372F]">
                 Ver como funciona
               </span>
@@ -72,13 +72,13 @@ const HeroSection = () => {
         </div>
 
         <div className="">
-          <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-12">
+          <h3 className="text-3xl font-playfairsc font-bold text-[#B39889] text-center mb-12">
             ÁUREA — A MODA INTELIGENTE
           </h3>
           
           <div className="grid grid-cols-3 md:grid-cols-3 gap-8 flex-row">
   
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px] ">
+            <div className="text-center bg-[#B39889] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px] ">
               <h4 className="text-center font-playfairsc font-bold text-[#61372F] mb-4">
                 DIFERENCIAL
               </h4>
@@ -87,7 +87,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20  w-[400px]">
+            <div className="text-center bg-[#B39889] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20  w-[400px]">
               <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
                 PÚBLICO-ALVO
               </h4>
@@ -96,7 +96,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px]">
+            <div className="text-center bg-[#B39889] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px]">
               <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4 text-center">
                 OBJETIVO
               </h4>
@@ -107,21 +107,21 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <h2 className="text-2xl md:text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+        <h2 className="text-2xl md:text-3xl font-playfairsc font-bold text-[#B39889] text-center mb-8">
           BAIXE O APLICATIVO ÁUREA
         </h2>
 
-        <p className="text-lg md:text-xl font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl font-poppins font-light italic text-[#B39889] text-center mb-12 max-w-2xl mx-auto">
           Conecte sua experiência de compra com tecnologia e estilo.
         </p>
 
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-16 w-full max-w-4xl mx-auto">
+        <div className="bg-[#B39889] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-16 w-full max-w-4xl mx-auto">
           <p className="text-lg font-poppins font-light text-[#61372F] text-center mb-8 leading-relaxed">
             O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado avec câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
           </p>
 
           <div className="flex justify-center">
-            <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
+            <button className="bg-[#B39889] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
               <span className="text-lg font-playfair font-bold text-[#61372F]">
                 Baixar o Aplicativo
               </span>
@@ -129,11 +129,11 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+        <h2 className="text-3xl font-playfairsc font-bold text-[#B39889] text-center mb-8">
           QUEM SOMOS?
         </h2>
 
-        <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12">
+        <p className="text-lg font-poppins font-light italic text-[#B39889] text-center mb-12">
           Conheça quem faz o ÁUREA acontecer.
         </p>
 
@@ -145,13 +145,13 @@ const HeroSection = () => {
               alt="Isabela" 
               className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
             />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+            <p className="text-sm font-poppins text-[#B39889] text-center mb-2">
               @iisacost_
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+            <p className="text-lg font-playfair text-[#B39889] text-center mb-2">
               Isabela Costa
             </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+            <div className="w-24 h-0.5 bg-[#B39889]"></div>
           </div>
 
           <div className="flex flex-col items-center">
@@ -160,13 +160,13 @@ const HeroSection = () => {
               alt="Danielle" 
               className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
             />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+            <p className="text-sm font-poppins text-[#B39889] text-center mb-2">
               @_dany.elle_
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+            <p className="text-lg font-playfair text-[#B39889] text-center mb-2">
               Danielle Freitas
             </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+            <div className="w-24 h-0.5 bg-[#B39889]"></div>
           </div>
 
           <div className="flex flex-col items-center">
@@ -175,13 +175,13 @@ const HeroSection = () => {
               alt="Leticia" 
               className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
             />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+            <p className="text-sm font-poppins text-[#B39889] text-center mb-2">
               @lelealmeida__
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+            <p className="text-lg font-playfair text-[#B39889] text-center mb-2">
               Letícia Moreira
             </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+            <div className="w-24 h-0.5 bg-[#B39889]"></div>
           </div>
 
           <div className="flex flex-col items-center">
@@ -190,55 +190,55 @@ const HeroSection = () => {
               alt="Gabriela" 
               className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
             />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+            <p className="text-sm font-poppins text-[#B39889] text-center mb-2">
               @gabiheerculano_
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+            <p className="text-lg font-playfair text-[#B39889] text-center mb-2">
               Gabriela Herculano
             </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+            <div className="w-24 h-0.5 bg-[#B39889]"></div>
           </div>
         </div>
 
-        <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+        <h2 className="text-3xl font-playfairsc font-bold text-[#B39889] text-center mb-8">
           ENTRE EM CONTATO
         </h2>
 
-        <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-lg font-poppins font-light italic text-[#B39889] text-center mb-12 max-w-2xl mx-auto">
           Estamos prontas para te ajudar! Envie sua mensagem e responderemos o mais rápido possível.
         </p>
 
         <div className="w-full max-w-md mx-auto mb-16">
           
           <div className="flex flex-col items-start mb-6">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+            <label className="text-lg font-poppins font-light italic text-[#B39889] mb-2">
               Nome
             </label>
             <input 
               type="text"
               placeholder="Digite aqui..."
-              className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
+              className="w-full h-12 bg-[#B39889] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
             />
           </div>
 
           <div className="flex flex-col items-start mb-6">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+            <label className="text-lg font-poppins font-light italic text-[#B39889] mb-2">
               E-mail
             </label>
             <input 
               type="email"
               placeholder="Digite aqui..."
-              className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
+              className="w-full h-12 bg-[#B39889] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
             />
           </div>
 
           <div className="flex flex-col items-start mb-8">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+            <label className="text-lg font-poppins font-light italic text-[#B39889] mb-2">
               Assunto
             </label>
             <textarea 
               placeholder="Digite aqui..."
-              className="w-full h-32 bg-[#DEC8BC] border-2 border-[#61372F] p-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] resize-none rounded-lg"
+              className="w-full h-32 bg-[#B39889] border-2 border-[#61372F] p-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] resize-none rounded-lg"
             />
           </div>
 
@@ -254,7 +254,7 @@ const HeroSection = () => {
 
       <div className="lg:hidden flex flex-col justify-center items-center pt-24 px-4">
 
-        <h2 className="text-[27.8px] font-playfairsc text-[#61372F] text-center mb-4">
+        <h2 className="text-[27.8px] font-playfairsc text-[#B39889] text-center mb-4">
           ONDE MODA E TECNOLOGIA SE ENCONTRAM
         </h2>
       
@@ -418,4 +418,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSectionDark;
