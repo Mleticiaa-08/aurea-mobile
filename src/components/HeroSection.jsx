@@ -8,252 +8,256 @@ import gabriela from '../assets/Gabriela.png';
 
 const HeroSection = () => {
   return (
-    <div className="w-full pt-28 px-4 mx-auto bg-[#FAE6DD]">
-
+    <div className="bg-[#FAE6DD] min-h-screen"> {/* Container principal com fundo */}
+      
+      {/* Conteúdo para desktop */}
       <div className="hidden lg:block">
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="text-center lg:text-left">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfairsc text-[#61372F] mb-6">
-              ONDE MODA E TECNOLOGIA SE ENCONTRAM.
-            </h2>
-            <p className="text-lg md:text-xl font-poppins text-[#61372F] mb-8">
-              Navegue, experimente e compre – sem tocar nas araras.
-            </p>
-    
-          </div>
+        <div className="max-w-7xl mx-auto pt-28 px-4">
           
-          <div className="flex justify-center lg:justify-end">
-            <img 
-              src={espelho} 
-              alt="Espelho Áurea" 
-              className="w-80 md:w-96 lg:w-[500px] h-auto object-contain" 
-            />
-          </div>
-        </div>
-
-        <div className="w-full h-0.5 bg-[#CDA6A2] my-16"></div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
-
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
-            <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-6">
-              EXPERIÊNCIA IMERSIVA
-            </h3>
-            <p className="text-xl font-poppins text-[#61372F] mb-10  leading-relaxed"> 
-              Você pode explorar, combinar e até comprar as peças diretamente pelo totem, sem precisar procurar nas araras.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="text-center lg:text-left">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfairsc text-[#61372F] mb-6">
+                ONDE MODA E TECNOLOGIA SE ENCONTRAM.
+              </h2>
+              <p className="text-lg md:text-xl font-poppins text-[#61372F] mb-8">
+                Navegue, experimente e compre – sem tocar nas araras.
+              </p>
+            </div>
+            
+            <div className="flex justify-center lg:justify-end">
+              <img 
+                src={espelho} 
+                alt="Espelho Áurea" 
+                className="w-80 md:w-96 lg:w-[500px] h-auto object-contain" 
+              />
+            </div>
           </div>
 
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+          <div className="w-full h-0.5 bg-[#CDA6A2] my-16"></div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
+            <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+              <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-6">
+                EXPERIÊNCIA IMERSIVA
+              </h3>
+              <p className="text-xl font-poppins text-[#61372F] mb-10 leading-relaxed"> 
+                Você pode explorar, combinar e até comprar as peças diretamente pelo totem, sem precisar procurar nas araras.
+              </p>
+            </div>
+
+            <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center h-80">
+              <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
+                TECNOLOGIA PARA LOJAS INOVADORAS
+              </h3>
+              <p className="text-xl font-poppins text-[#61372F] mb-8 leading-relaxed">
+                Ideal para clientes que valorizam praticidade, estilo e atendimento inteligente, sem abrir mão do toque humano.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center mb-20 max-w-2xl mx-auto h-96">
             <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
-              TECNOLOGIA PARA LOJAS INOVADORAS
+              SUA ROUPA. SEU ESTILO. SUA LOJA, REPENSADA.
             </h3>
             <p className="text-xl font-poppins text-[#61372F] mb-8 leading-relaxed">
-              Ideal para clientes que valorizam praticidade, estilo e atendimento inteligente, sem abrir mão do toque humano.
+              Com ÁUREA, vestir-se bem é tão simples quanto ser você mesmo. Descubra sugestões inteligentes e práticas direto no totem da loja.
             </p>
+            <Link to="/funcionamento">
+              <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
+                <span className="text-xl font-playfair font-bold text-[#61372F]">
+                  Ver como funciona
+                </span>
+              </button>
+            </Link>
           </div>
-        </div>
 
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-10 rounded-lg text-center mb-20 max-w-2xl mx-auto h-96">
-          <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] mb-8">
-            SUA ROUPA. SEU ESTILO. SUA LOJA, REPENSADA.
-          </h3>
-          <p className="text-xl font-poppins text-[#61372F] mb-8 leading-relaxed">
-            Com ÁUREA, vestir-se bem é tão simples quanto ser você mesmo. Descubra sugestões inteligentes e práticas direto no totem da loja.
-          </p>
-          <Link to="/funcionamento">
-            <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
-              <span className="text-xl font-playfair font-bold text-[#61372F]">
-                Ver como funciona
-              </span>
-            </button>
-          </Link>
-        </div>
+          <div className="mb-20">
+            <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-12">
+              ÁUREA — A MODA INTELIGENTE
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
+              <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mx-auto w-full max-w-[400px]">
+                <h4 className="text-center font-playfairsc font-bold text-[#61372F] mb-4">
+                  DIFERENCIAL
+                </h4>
+                <p className="text-lg font-poppins text-[#61372F]">
+                  Traz praticidade e personalização para lojas físicas. Evita filas, reduz o tempo de busca e aumenta a conversão de vendas.
+                </p>
+              </div>
 
-        <div className="">
-          <h3 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-12">
-            ÁUREA — A MODA INTELIGENTE
-          </h3>
-          
-          <div className="grid grid-cols-3 md:grid-cols-3 gap-8 flex-row">
-  
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px] ">
-              <h4 className="text-center font-playfairsc font-bold text-[#61372F] mb-4">
-                DIFERENCIAL
-              </h4>
-              <p className="text-lg font-poppins text-[#61372F]">
-                Traz praticidade e personalização para lojas físicas. Evita filas, reduz o tempo de busca e aumenta a conversão de vendas.
-              </p>
-            </div>
+              <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mx-auto w-full max-w-[400px]">
+                <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
+                  PÚBLICO-ALVO
+                </h4>
+                <p className="text-lg font-poppins text-[#61372F]">
+                  Clientes que frequentam lojas físicas, mas desejam uma experiência rápida e interativa. Lojas físicas de pequeno a grande porte.
+                </p>
+              </div>
 
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20  w-[400px]">
-              <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4">
-                PÚBLICO-ALVO
-              </h4>
-              <p className="text-lg font-poppins text-[#61372F]">
-                Clientes que frequentam lojas físicas, mas desejam uma experiência rápida e interativa. Lojas físicas de pequeno a grande porte.
-              </p>
-            </div>
-
-            <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-20 w-[400px]">
-              <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4 text-center">
-                OBJETIVO
-              </h4>
-              <p className="text-lg font-poppins text-[#61372F]">
-                Revolucionar a experiência de compra em lojas físicas, unindo moda, tecnologia e interatividade.
-              </p>
+              <div className="text-center bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mx-auto w-full max-w-[400px]">
+                <h4 className="text-xl font-playfairsc font-bold text-[#61372F] mb-4 text-center">
+                  OBJETIVO
+                </h4>
+                <p className="text-lg font-poppins text-[#61372F]">
+                  Revolucionar a experiência de compra em lojas físicas, unindo moda, tecnologia e interatividade.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <h2 className="text-2xl md:text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
-          BAIXE O APLICATIVO ÁUREA
-        </h2>
+          <div className="mb-20">
+            <h2 className="text-2xl md:text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+              BAIXE O APLICATIVO ÁUREA
+            </h2>
 
-        <p className="text-lg md:text-xl font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
-          Conecte sua experiência de compra com tecnologia e estilo.
-        </p>
-
-        <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg mb-16 w-full max-w-4xl mx-auto">
-          <p className="text-lg font-poppins font-light text-[#61372F] text-center mb-8 leading-relaxed">
-            O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado avec câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
-          </p>
-
-          <div className="flex justify-center">
-            <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
-              <span className="text-lg font-playfair font-bold text-[#61372F]">
-                Baixar o Aplicativo
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
-          QUEM SOMOS?
-        </h2>
-
-        <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12">
-          Conheça quem faz o ÁUREA acontecer.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-
-          <div className="flex flex-col items-center">
-            <img 
-              src={isabela} 
-              alt="Isabela" 
-              className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
-            />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
-              @iisacost_
+            <p className="text-lg md:text-xl font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
+              Conecte sua experiência de compra com tecnologia e estilo.
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
-              Isabela Costa
-            </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+
+            <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg w-full max-w-4xl mx-auto">
+              <p className="text-lg font-poppins font-light text-[#61372F] text-center mb-8 leading-relaxed">
+                O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado avec câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
+              </p>
+
+              <div className="flex justify-center">
+                <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
+                  <span className="text-lg font-playfair font-bold text-[#61372F]">
+                    Baixar o Aplicativo
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col items-center">
-            <img 
-              src={danielle} 
-              alt="Danielle" 
-              className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
-            />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
-              @_dany.elle_
+          <div className="mb-20">
+            <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+              QUEM SOMOS?
+            </h2>
+
+            <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12">
+              Conheça quem faz o ÁUREA acontecer.
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
-              Danielle Freitas
-            </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="flex flex-col items-center">
+                <img 
+                  src={isabela} 
+                  alt="Isabela" 
+                  className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
+                />
+                <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+                  @iisacost_
+                </p>
+                <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+                  Isabela Costa
+                </p>
+                <div className="w-24 h-0.5 bg-[#61372F]"></div>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <img 
+                  src={danielle} 
+                  alt="Danielle" 
+                  className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
+                />
+                <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+                  @_dany.elle_
+                </p>
+                <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+                  Danielle Freitas
+                </p>
+                <div className="w-24 h-0.5 bg-[#61372F]"></div>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <img 
+                  src={leticia} 
+                  alt="Leticia" 
+                  className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
+                />
+                <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+                  @lelealmeida__
+                </p>
+                <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+                  Letícia Moreira
+                </p>
+                <div className="w-24 h-0.5 bg-[#61372F]"></div>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <img 
+                  src={gabriela} 
+                  alt="Gabriela" 
+                  className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
+                />
+                <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
+                  @gabiheerculano_
+                </p>
+                <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
+                  Gabriela Herculano
+                </p>
+                <div className="w-24 h-0.5 bg-[#61372F]"></div>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col items-center">
-            <img 
-              src={leticia} 
-              alt="Leticia" 
-              className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
-            />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
-              @lelealmeida__
+          <div className="pb-20">
+            <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
+              ENTRE EM CONTATO
+            </h2>
+
+            <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
+              Estamos prontas para te ajudar! Envie sua mensagem e responderemos o mais rápido possível.
             </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
-              Letícia Moreira
-            </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
-          </div>
 
-          <div className="flex flex-col items-center">
-            <img 
-              src={gabriela} 
-              alt="Gabriela" 
-              className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
-            />
-            <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
-              @gabiheerculano_
-            </p>
-            <p className="text-lg font-playfair text-[#61372F] text-center mb-2">
-              Gabriela Herculano
-            </p>
-            <div className="w-24 h-0.5 bg-[#61372F]"></div>
-          </div>
-        </div>
+            <div className="w-full max-w-md mx-auto">
+              <div className="flex flex-col items-start mb-6">
+                <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+                  Nome
+                </label>
+                <input 
+                  type="text"
+                  placeholder="Digite aqui..."
+                  className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
+                />
+              </div>
 
-        <h2 className="text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
-          ENTRE EM CONTATO
-        </h2>
+              <div className="flex flex-col items-start mb-6">
+                <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+                  E-mail
+                </label>
+                <input 
+                  type="email"
+                  placeholder="Digite aqui..."
+                  className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
+                />
+              </div>
 
-        <p className="text-lg font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
-          Estamos prontas para te ajudar! Envie sua mensagem e responderemos o mais rápido possível.
-        </p>
+              <div className="flex flex-col items-start mb-8">
+                <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
+                  Assunto
+                </label>
+                <textarea 
+                  placeholder="Digite aqui..."
+                  className="w-full h-32 bg-[#DEC8BC] border-2 border-[#61372F] p-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] resize-none rounded-lg"
+                />
+              </div>
 
-        <div className="w-full max-w-md mx-auto mb-16">
-          
-          <div className="flex flex-col items-start mb-6">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
-              Nome
-            </label>
-            <input 
-              type="text"
-              placeholder="Digite aqui..."
-              className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
-            />
-          </div>
-
-          <div className="flex flex-col items-start mb-6">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
-              E-mail
-            </label>
-            <input 
-              type="email"
-              placeholder="Digite aqui..."
-              className="w-full h-12 bg-[#DEC8BC] border-2 border-[#61372F] pl-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] rounded-lg"
-            />
-          </div>
-
-          <div className="flex flex-col items-start mb-8">
-            <label className="text-lg font-poppins font-light italic text-[#61372F] mb-2">
-              Assunto
-            </label>
-            <textarea 
-              placeholder="Digite aqui..."
-              className="w-full h-32 bg-[#DEC8BC] border-2 border-[#61372F] p-4 text-base font-playfair text-[#61372F] placeholder-[#61372F] resize-none rounded-lg"
-            />
-          </div>
-
-          <div className="flex justify-center">
-            <button className="bg-[#61372F] text-[#FAE6DD] py-3 px-12 rounded-lg hover:bg-[#7A4A42] transition-colors">
-              <span className="text-lg font-playfair font-bold">
-                Enviar Mensagem
-              </span>
-            </button>
+              <div className="flex justify-center">
+                <button className="bg-[#61372F] text-[#FAE6DD] py-3 px-12 rounded-lg hover:bg-[#7A4A42] transition-colors">
+                  <span className="text-lg font-playfair font-bold">
+                    Enviar Mensagem
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="lg:hidden flex flex-col justify-center items-center pt-24 px-4">
-
+      {/* Versão Mobile */}
+      <div className="lg:hidden flex flex-col items-center pt-24 px-4 pb-12">
         <h2 className="text-[27.8px] font-playfairsc text-[#61372F] text-center mb-4">
           ONDE MODA E TECNOLOGIA SE ENCONTRAM
         </h2>
@@ -357,8 +361,8 @@ const HeroSection = () => {
           <button className="w-[110px] h-[20px] bg-[#DEC8BC] border-[1px] border-[#61372F] flex items-center justify-center mt-4 rounded">
             <span className="text-[9px] font-playfair font-bold text-[#61372F]">
               Baixar o Aplicativo
-              </span>
-            </button>
+            </span>
+          </button>
         </div>
 
         <h2 className="text-[24px] font-playfairsc font-bold text-[#61372F] text-center mt-4">
@@ -412,8 +416,14 @@ const HeroSection = () => {
           <textarea placeholder="Digite aqui..." className="w-[241px] h-[91px] bg-[#DEC8BC] border-2 border-[#61372F] p-3 text-[12px] font-playfair text-[#61372F] placeholder-[#61372F] resize-none rounded" />
         </div>
 
+        <div className="flex justify-center mb-12">
+          <button className="bg-[#61372F] text-[#FAE6DD] py-2 px-8 rounded">
+            <span className="text-[12px] font-playfair font-bold">
+              Enviar Mensagem
+            </span>
+          </button>
+        </div>
       </div>
-
     </div>
   );
 };
