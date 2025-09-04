@@ -12,28 +12,8 @@ function App() {
   return (
     <Router>
       <Routes>
-     
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <HeroSection />
-            </>
-          }
-        />
-
-     
-        <Route
-          path="/dark"
-          element={
-            <>
-              <HeaderDark />
-              <HeroSectionDark />
-            </>
-          }
-        />
-
+        <Route path="/dark" element={<><HeaderDark /><HeroSectionDark /></>}/>
+        <Route path="/" element={<><Header /><HeroSection /></>}/>
         <Route path="/funcionamento" element={<><Header /><Funcionamento /></>} />
         <Route path="/jogo" element={<><Header /><Jogo /></>} />
         <Route path="/equipamentos" element={<><Header /><Equipamentos /></>} />

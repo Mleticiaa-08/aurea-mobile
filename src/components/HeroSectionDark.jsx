@@ -8,7 +8,7 @@ import gabriela from '../assets/Gabriela.png';
 
 const HeroSectionDark = () => {
   return (
-    <div className="w-full pt-28 px-4 max-w-7xl mx-auto bg-[#61372F]">
+    <div className="w-full pt-28 px-4 mx-auto bg-[#61372F]">
 
       <div className="hidden lg:block">
 

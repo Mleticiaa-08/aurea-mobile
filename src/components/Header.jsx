@@ -84,7 +84,7 @@ const Header = () => {
       >
         <div className="pt-24 px-6">
           <nav className="flex flex-col space-y-6">
-            <Link to="/HeroSectionDark" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
+            <Link to="/" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>
               Home
             </Link>
             <Link to="/jogo" className="text-[#61372F] text-xl font-playfair hover:text-[#7A4A42] transition-colors" onClick={closeMenu}>

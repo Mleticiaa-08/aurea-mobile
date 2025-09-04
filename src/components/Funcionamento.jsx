@@ -2,10 +2,11 @@ import React from 'react';
 
 const Funcionamento = () => {
   return (
-    <div className="w-full pt-28 px-4 max-w-7xl mx-auto">
+    <div className="w-full bg-[#FAE6DD] min-h-screen"> {/* Fundo aplicado aqui e min-h-screen para ocupar altura total */}
 
+        {/* Versão Desktop */}
         <div className="hidden lg:block">
-          <div className="max-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-24 pb-10">
+          <div className="flex flex-col items-center px-4 pt-21 pb-16"> {/* Removido max-h-screen e bg-[#FAE6DD] */}
       
             <h2 className="text-[30px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
               COMO USAR O ÁUREA: GUIA DE ESTILO
@@ -89,7 +90,8 @@ const Funcionamento = () => {
           </div>
         </div>
 
-        <div className="lg:hidden min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-24 pb-10">
+        {/* Versão Mobile */}
+        <div className="lg:hidden flex flex-col items-center px-4 pt-24 pb-10"> {/* Removido bg-[#FAE6DD] e min-h-screen */}
       
           <h2 className="text-[24px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
             COMO USAR O ÁUREA: GUIA DE ESTILO

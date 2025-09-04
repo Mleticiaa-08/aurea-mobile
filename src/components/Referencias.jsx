@@ -13,14 +13,14 @@ const Referencias = () => {
   ];
 
   return (
-    <div className="w-full pt-20 px-4 max-w-7xl mx-auto"> {/* Reduzido o padding-top */}
+    <div className="w-full bg-[#FAE6DD] min-h-screen pt-28"> {/* Fundo aplicado aqui e min-h-screen para ocupar altura total */}
 
       {/* Versão Desktop */}
       <div className="hidden lg:block">
-        <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-16 pb-16"> {/* Reduzido o padding-top */}
+        <div className="min-h-screen flex flex-col items-center px-4 pt-16 pb-16">
           
-          <div className="w-full max-w-3xl text-center mb-8"> {/* Reduzido o margin-bottom */}
-            <h1 className="text-4xl font-playfair font-bold text-[#61372F] mb-3"> {/* Reduzido o margin-bottom */}
+          <div className="w-full max-w-3xl text-center mb-8">
+            <h1 className="text-4xl font-playfair font-bold text-[#61372F] mb-3">
               REFERÊNCIAS
             </h1>
             <p className="text-2xl font-poppins font-light italic text-[#61372F]">
@@ -28,14 +28,14 @@ const Referencias = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-3xl space-y-4"> {/* Reduzido o espaçamento entre os itens */}
+          <div className="w-full max-w-3xl space-y-4">
             {links.map((link, index) => (
               <a 
                 key={index}
                 href={link} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block bg-[#DEC8BC] border-4 border-[#61372F] rounded-lg p-5 h-20 flex items-center hover:bg-[#d3b9ab] transition-colors cursor-pointer"
+                className="bg-[#DEC8BC] border-4 border-[#61372F] rounded-lg p-5 h-20 flex items-center hover:bg-[#d3b9ab] transition-colors cursor-pointer"
               >
                 <h2 className="text-lg font-poppins font-bold text-[#61372F]">
                   {index === 0 && "DOCUMENTAÇÃO ESP32"}
@@ -54,37 +54,39 @@ const Referencias = () => {
       </div>
 
       {/* Versão Mobile */}
-      <div className="lg:hidden flex flex-col justify-center items-center pt-16 px-4"> {/* Reduzido o padding-top */}
-        
-        <h1 className="text-[24px] font-playfair font-bold text-[#61372F] text-center mb-2"> {/* Reduzido o margin-bottom */}
-          REFERÊNCIAS
-        </h1>
-        
-        <p className="text-[14px] font-poppins font-light italic text-[#61372F] text-center mb-6"> {/* Reduzido o margin-bottom */}
-          Artigos, Fontes e Materiais Consultados
-        </p>
+      <div className="lg:hidden">
+        <div className="flex flex-col justify-center items-center pt-16 px-4">
+          
+          <h1 className="text-[24px] font-playfair font-bold text-[#61372F] text-center mb-2">
+            REFERÊNCIAS
+          </h1>
+          
+          <p className="text-[14px] font-poppins font-light italic text-[#61372F] text-center mb-6">
+            Artigos, Fontes e Materiais Consultados
+          </p>
 
-        <div className="w-full space-y-3"> {/* Reduzido o espaçamento entre os itens */}
-          {links.map((link, index) => (
-            <a 
-              key={index}
-              href={link} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block w-full bg-[#DEC8BC] border-2 border-[#61372F] rounded-lg p-3 flex items-center hover:bg-[#d3b9ab] transition-colors cursor-pointer"
-            >
-              <h2 className="text-[12px] font-poppins font-bold text-[#61372F] text-center mx-auto">
-                {index === 0 && "DOCUMENTAÇÃO ESP32"}
-                {index === 1 && "DOCUMENTAÇÃO ESP32 CÂMERA"}
-                {index === 2 && "ARTIGO: TENDÊNCIAS DA MODA E SUSTENTABILIDADE"}
-                {index === 3 && "MANUAL DE USABILIDADE – NIELSEN NORMAN GROUP"}
-                {index === 4 && "DESIGN MINIMALISTA APLICADO A INTERFACES"}
-                {index === 5 && "DOCUMENTAÇÃO DO FIGMA"}
-                {index === 6 && "TUTORIAIS ARDUINO PARA IOT"}
-                {index === 7 && "ARTIGO: INFLUÊNCIA DA MODA NA IDENTIDADE"}
-              </h2>
-            </a>
-          ))}
+          <div className="w-full space-y-3 pb-8"> {/* Adicionado pb-8 para padding na parte inferior */}
+            {links.map((link, index) => (
+              <a 
+                key={index}
+                href={link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full bg-[#DEC8BC] border-2 border-[#61372F] rounded-lg p-3 flex items-center hover:bg-[#d3b9ab] transition-colors cursor-pointer"
+              >
+                <h2 className="text-[12px] font-poppins font-bold text-[#61372F] text-center mx-auto">
+                  {index === 0 && "DOCUMENTAÇÃO ESP32"}
+                  {index === 1 && "DOCUMENTAÇÃO ESP32 CÂMERA"}
+                  {index === 2 && "ARTIGO: TENDÊNCIAS DA MODA E SUSTENTABILIDADE"}
+                  {index === 3 && "MANUAL DE USABILIDADE – NIELSEN NORMAN GROUP"}
+                  {index === 4 && "DESIGN MINIMALISTA APLICADO A INTERFACES"}
+                  {index === 5 && "DOCUMENTAÇÃO DO FIGMA"}
+                  {index === 6 && "TUTORIAIS ARDUINO PARA IOT"}
+                  {index === 7 && "ARTIGO: INFLUÊNCIA DA MODA NA IDENTIDADE"}
+                </h2>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
 

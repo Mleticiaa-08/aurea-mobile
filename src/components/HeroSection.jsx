@@ -8,7 +8,7 @@ import gabriela from '../assets/Gabriela.png';
 
 const HeroSection = () => {
   return (
-    <div className="w-full pt-28 px-4 max-w-7xl mx-auto bg-[#FAE6DD]">
+    <div className="w-full pt-28 px-4 mx-auto bg-[#FAE6DD]">
 
       <div className="hidden lg:block">
 
