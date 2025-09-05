@@ -7,7 +7,7 @@ const FuncionamentoDark = () => {
         <div className="hidden lg:block">
           <div className="flex flex-col items-center px-4 pt-21 pb-16"> 
       
-            <h2 className="text-[30px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
+            <h2 className="text-[30px] font-playfairsc font-bold text-[#B39889] text-center mb-10">
               COMO USAR O ÁUREA: GUIA DE ESTILO
             </h2>
 
@@ -90,7 +90,7 @@ const FuncionamentoDark = () => {
         </div>
 
         <div className="lg:hidden flex flex-col items-center px-4 pt-24 pb-10"> 
-          <h2 className="text-[24px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
+          <h2 className="text-[24px] font-playfairsc font-bold text-[#B39889] text-center mb-10">
             COMO USAR O ÁUREA: GUIA DE ESTILO
           </h2>
 
