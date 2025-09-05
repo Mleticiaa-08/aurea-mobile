@@ -2,7 +2,7 @@ import React from 'react';
 
 const FuncionamentoDark = () => {
   return (
-    <div className="w-full bg-[#fc5609] min-h-screen"> 
+    <div className="w-full bg-[#704943] min-h-screen"> 
 
         <div className="hidden lg:block">
           <div className="flex flex-col items-center px-4 pt-21 pb-16"> 
