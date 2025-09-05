@@ -416,7 +416,7 @@ const HeroSectionDark = () => {
         </div>
 
         <div className="flex justify-center mb-12">
-          <button className="bg-[#ee3e1a] text-[#FAE6DD] py-2 px-8 rounded">
+          <button className="bg-[#B39889] text-[#FAE6DD] py-2 px-8 rounded">
             <span className="text-[12px] font-playfair font-bold">
               Enviar Mensagem
             </span>

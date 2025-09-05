@@ -55,11 +55,11 @@ const ReferenciasDark = () => {
       <div className="lg:hidden">
         <div className="flex flex-col justify-center items-center pt-16 px-4">
           
-          <h1 className="text-[24px] font-playfair font-bold text-[#61372F] text-center mb-2">
+          <h1 className="text-[24px] font-playfair font-bold text-[#B39889] text-center mb-2">
             REFERÊNCIAS
           </h1>
           
-          <p className="text-[14px] font-poppins font-light italic text-[#61372F] text-center mb-6">
+          <p className="text-[14px] font-poppins font-light italic text-[#B39889] text-center mb-6">
             Artigos, Fontes e Materiais Consultados
           </p>
 
