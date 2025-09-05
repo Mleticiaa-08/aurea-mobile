@@ -18,12 +18,10 @@ const Header = () => {
       <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#FAE6DD] dark:bg-[#61372F] ">
         <div className="flex justify-between items-center max-w-6xl mx-auto">
   
-          {/* Logo */}
           <Link to="/" className="text-3xl lg:text-4xl font-playfair text-[#61372F] dark:text-[#DEC8BC]">
             ÁUREA
           </Link>
-         
-          {/* Menu Desktop */}
+        
           <nav className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-[#61372F] text-lg font-playfair hover:text-[#7A4A42] transition-colors ">
               Home
@@ -39,7 +37,6 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* Botão Dark Mode (Desktop) */}
           <div className="hidden md:flex items-center gap-6">
             <Link to="/dark">
               <img 
@@ -50,7 +47,6 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu */}
           <div className="flex items-center gap-4 md:hidden">
             <Link to="/dark">
               <img 
@@ -72,13 +68,11 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Fundo escuro ao abrir menu */}
       <div 
         className={`fixed inset-0 bg-[#61372F] bg-opacity-70 z-30 transition-opacity duration-300 md:hidden ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
         onClick={closeMenu}
       ></div>
 
-      {/* Menu lateral mobile */}
       <div 
         className={`fixed top-0 right-0 h-full w-64 bg-[#DEC8BC] shadow-lg z-40 transform transition-transform duration-300 md:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >

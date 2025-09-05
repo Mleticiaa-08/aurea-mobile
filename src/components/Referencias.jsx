@@ -13,9 +13,8 @@ const Referencias = () => {
   ];
 
   return (
-    <div className="w-full bg-[#FAE6DD] min-h-screen pt-28"> {/* Fundo aplicado aqui e min-h-screen para ocupar altura total */}
+    <div className="w-full bg-[#FAE6DD] min-h-screen pt-28"> 
 
-      {/* Versão Desktop */}
       <div className="hidden lg:block">
         <div className="min-h-screen flex flex-col items-center px-4 pt-16 pb-16">
           
@@ -53,7 +52,6 @@ const Referencias = () => {
         </div>
       </div>
 
-      {/* Versão Mobile */}
       <div className="lg:hidden">
         <div className="flex flex-col justify-center items-center pt-16 px-4">
           
@@ -65,7 +63,7 @@ const Referencias = () => {
             Artigos, Fontes e Materiais Consultados
           </p>
 
-          <div className="w-full space-y-3 pb-8"> {/* Adicionado pb-8 para padding na parte inferior */}
+          <div className="w-full space-y-3 pb-8">
             {links.map((link, index) => (
               <a 
                 key={index}

@@ -8,9 +8,8 @@ import gabriela from '../assets/Gabriela.png';
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#FAE6DD] min-h-screen"> {/* Container principal com fundo */}
+    <div className="bg-[#FAE6DD] min-h-screen"> 
       
-      {/* Conteúdo para desktop */}
       <div className="hidden lg:block">
         <div className="max-w-7xl mx-auto pt-28 px-4">
           
@@ -256,7 +255,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Versão Mobile */}
       <div className="lg:hidden flex flex-col items-center pt-24 px-4 pb-12">
         <h2 className="text-[27.8px] font-playfairsc text-[#61372F] text-center mb-4">
           ONDE MODA E TECNOLOGIA SE ENCONTRAM

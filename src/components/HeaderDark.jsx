@@ -15,7 +15,7 @@ const HeaderDark = () => {
 
   return (
     <>
-      <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#61372F]">
+      <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#704943]">
         <div className="flex justify-between items-center max-w-6xl mx-auto">
   
           {/* Logo */}

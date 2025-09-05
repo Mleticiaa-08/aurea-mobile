@@ -2,23 +2,23 @@ import React from 'react';
 
 const JogoDark = () => {
   return (
-    <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-24 pb-10 md:pt-32 md:pb-16">
+    <div className="min-h-screen bg-[#704943] flex flex-col items-center px-4 pt-24 pb-10 md:pt-32 md:pb-16">
       
-      <h2 className="text-[22px] md:text-[28px] font-playfair font-bold text-[#61372F] text-center mb-4 md:mb-6">
+      <h2 className="text-[22px] md:text-[28px] font-playfair font-bold text-[#B39889] text-center mb-4 md:mb-6">
         ÁUREA - O ESTILO EM CADA ERA
       </h2>
 
       <div className="w-full max-w-md md:max-w-lg bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col items-center justify-center mb-6 md:mb-8"
         style={{ borderRadius: '8px', height: '200px' }}>
         <div className="w-16 h-16 bg-[#FAE6DD] border-2 border-[#61372F] rounded-full flex items-center justify-center mb-3">
-          <span className="text-[30px] text-[#61372F]">▶</span>
+          <span className="text-[30px] text-[#B39889]">▶</span>
         </div>
         <p className="text-[12px] font-poppins font-light text-[#61372F] text-center">
           Vídeo demonstrativo do jogo
         </p>
       </div>
 
-      <p className="text-[14px] md:text-[16px] font-poppins text-[#61372F] text-center mb-8 max-w-md md:max-w-2xl">
+      <p className="text-[14px] md:text-[16px] font-poppins text-[#B39889] text-center mb-8 max-w-md md:max-w-2xl">
         Você é Lele, Bibi, Isa ou Elle, herdeira de costureiras que viam a moda como resistência. 
         Ao tocar um espelho antigo, é sugada para uma linha do tempo corrompida pelo Monotonia. 
         Sua missão é viajar por décadas, enfrentar padrões opressores e libertar a moda.
@@ -26,7 +26,7 @@ const JogoDark = () => {
 
       <div className="w-full max-w-4xl space-y-8 md:space-y-12">
         
-        <h3 className="text-[23px] md:text-[28px] font-playfairsc font-bold italic text-[#61372F] text-center mb-6 md:mb-10">
+        <h3 className="text-[23px] md:text-[28px] font-playfairsc font-bold italic text-[#B39889] text-center mb-6 md:mb-10">
           VIAGEM PELAS DÉCADAS
         </h3>
 
@@ -119,7 +119,7 @@ const JogoDark = () => {
         </div>
 
         <div className="w-full flex justify-center mt-8 md:mt-10">
-          <button className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#61372F] rounded-lg flex items-center justify-center"
+          <button className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#B39889] rounded-lg flex items-center justify-center"
             style={{ borderRadius: '6px' }}>
             <span className="text-[14px] md:text-[16px] font-poppins font-bold text-[#FAE6DD]">
               JOGAR AGORA
