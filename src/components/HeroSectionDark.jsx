@@ -302,7 +302,7 @@ const HeroSectionDark = () => {
             Descubra sugestões inteligentes e práticas direto no totem da loja.
           </p>
 
-          <Link to="/funcionamento">
+          <Link to="/funcionamentodark">
             <button className="w-[98px] h-[18px] bg-[#B39889] border-[1px] border-[#61372F] flex items-center justify-center rounded">
               <span className="text-[10px] font-playfair font-bold text-[#61372F]">
                 Ver como funciona
