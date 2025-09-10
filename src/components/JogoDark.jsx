@@ -101,19 +101,6 @@ const JogoDark = () => {
               No futuro, tudo se ajuda. Mas, quando ninguém mais era quem dava as destaca? Hora de planar o caos criativo no coração da partilaga.
             </p>
           </div>
-
-          <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col"
-            style={{ borderRadius: '8px' }}>
-            <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
-              FASE FINAL
-            </h4>
-            <h5 className="text-[12px] md:text-[14px] font-poppins font-semibold text-[#61372F] text-center mb-2">
-              A BATALHA
-            </h5>
-            <p className="text-[10px] md:text-[11px] font-poppins font-light text-[#61372F] text-center">
-              A Monotonia domina. As reguas alucen. Mas diga, seu look e sua arma. Mistura decada; quabre padros a Derrido o vazio. Destile
-            </p>
-          </div>
           
           <div className="hidden md:block"></div>
         </div>

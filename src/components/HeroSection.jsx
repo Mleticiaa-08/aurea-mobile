@@ -107,7 +107,7 @@ const HeroSection = () => {
 
           <div className="mb-20">
             <h2 className="text-2xl md:text-3xl font-playfairsc font-bold text-[#61372F] text-center mb-8">
-              BAIXE O APLICATIVO ÁUREA
+             APLICATIVO ÁUREA
             </h2>
 
             <p className="text-lg md:text-xl font-poppins font-light italic text-[#61372F] text-center mb-12 max-w-2xl mx-auto">
@@ -116,15 +116,10 @@ const HeroSection = () => {
 
             <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-8 rounded-lg w-full max-w-4xl mx-auto">
               <p className="text-lg font-poppins font-light text-[#61372F] text-center mb-8 leading-relaxed">
-                O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado avec câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
+                O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado com câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
               </p>
 
               <div className="flex justify-center">
-                <button className="bg-[#DEC8BC] border-2 border-[#61372F] px-8 py-3 rounded-lg hover:bg-[#D4B9A9] transition-colors">
-                  <span className="text-lg font-playfair font-bold text-[#61372F]">
-                    Baixar o Aplicativo
-                  </span>
-                </button>
               </div>
             </div>
           </div>
@@ -140,11 +135,7 @@ const HeroSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="flex flex-col items-center">
-                <img 
-                  src={isabela} 
-                  alt="Isabela" 
-                  className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" 
-                />
+                <img src={isabela} alt="Isabela" className="w-40 h-40 object-contain mb-4 rounded-full border-2 border-[#CDA6A2]" />
                 <p className="text-sm font-poppins text-[#61372F] text-center mb-2">
                   @iisacost_
                 </p>
@@ -344,7 +335,7 @@ const HeroSection = () => {
         </div>
 
         <h2 className="text-[20px] font-playfairsc font-bold text-[#61372F] text-center mb-1">
-          BAIXE O APLICATIVO ÁUREA
+          APLICATIVO ÁUREA
         </h2>
 
         <p className="text-[13px] font-poppins font-light italic text-[#61372F] text-center mb-6">
@@ -353,14 +344,8 @@ const HeroSection = () => {
 
         <div className="w-[273px] h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col items-center justify-center mb-8 rounded-lg">
           <p className="text-[12px] font-poppins font-light text-[#61372F] text-center leading-tight max-w-[220px] mx-auto">
-            O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado avec câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
+            O app da ÁUREA permite que você acesse as peças disponíveis na loja diretamente do seu celular. Através da integração com o espelho equipado com câmera, o sistema reconhece a peça que você está vestindo e envia as informações para o totem — e de lá, direto para seu app. Simples, rápido e sem precisar procurar nas araras.
           </p>
-
-          <button className="w-[110px] h-[20px] bg-[#DEC8BC] border-[1px] border-[#61372F] flex items-center justify-center mt-4 rounded">
-            <span className="text-[9px] font-playfair font-bold text-[#61372F]">
-              Baixar o Aplicativo
-            </span>
-          </button>
         </div>
 
         <h2 className="text-[24px] font-playfairsc font-bold text-[#61372F] text-center mt-4">
