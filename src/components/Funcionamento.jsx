@@ -2,11 +2,9 @@ import React from 'react';
 
 const Funcionamento = () => {
   return (
-    <div className="w-full bg-[#FAE6DD] min-h-screen"> {/* Fundo aplicado aqui e min-h-screen para ocupar altura total */}
-
-        {/* Versão Desktop */}
+    <div className="w-full bg-[#FAE6DD] min-h-screen"> 
         <div className="hidden lg:block">
-          <div className="flex flex-col items-center px-4 pt-21 pb-16"> {/* Removido max-h-screen e bg-[#FAE6DD] */}
+          <div className="flex flex-col items-center px-4 pt-21 pb-16"> 
       
             <h2 className="text-[30px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
               COMO USAR O ÁUREA: GUIA DE ESTILO
@@ -14,10 +12,7 @@ const Funcionamento = () => {
 
             <div className="w-full max-w-6xl space-y-10 grid grid-cols-3 gap-8">
           
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Aproxime-se do Espelho ÁUREA
                 </h3>
@@ -26,10 +21,7 @@ const Funcionamento = () => {
                 </p>
               </div>
 
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }} >
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Envio automático para o Totem
                 </h3>
@@ -38,10 +30,7 @@ const Funcionamento = () => {
                 </p>
               </div>
 
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }} >
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Visualize sugestões de roupas
                 </h3>
@@ -50,10 +39,7 @@ const Funcionamento = () => {
                 </p>
               </div>
 
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Adicione a roupa ao carrinho
                 </h3>
@@ -62,10 +48,7 @@ const Funcionamento = () => {
                 </p>
               </div>
 
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div  className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Finalize sua compra
                 </h3>
@@ -74,10 +57,7 @@ const Funcionamento = () => {
                 </p>
               </div>
 
-              <div 
-                className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-                style={{ borderRadius: '8px' }}
-              >
+              <div className="w-[300px] h-[200px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
                 <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-10">
                   Retire na loja ou receba em casa
                 </h3>
@@ -90,8 +70,7 @@ const Funcionamento = () => {
           </div>
         </div>
 
-        {/* Versão Mobile */}
-        <div className="lg:hidden flex flex-col items-center px-4 pt-24 pb-10"> {/* Removido bg-[#FAE6DD] e min-h-screen */}
+        <div className="lg:hidden flex flex-col items-center px-4 pt-24 pb-10"> 
       
           <h2 className="text-[24px] font-playfairsc font-bold text-[#61372F] text-center mb-10">
             COMO USAR O ÁUREA: GUIA DE ESTILO
@@ -99,10 +78,7 @@ const Funcionamento = () => {
 
           <div className="w-full max-w-md space-y-8">
          
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Aproxime-se do Espelho ÁUREA
               </h3>
@@ -111,10 +87,7 @@ const Funcionamento = () => {
               </p>
             </div>
 
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }} >
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Envio automático para o Totem
               </h3>
@@ -123,10 +96,7 @@ const Funcionamento = () => {
               </p>
             </div>
 
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Visualize sugestões de roupas
               </h3>
@@ -135,10 +105,7 @@ const Funcionamento = () => {
               </p>
             </div>
 
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }} >
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Adicione a roupa ao carrinho
               </h3>
@@ -147,10 +114,7 @@ const Funcionamento = () => {
               </p>
             </div>
 
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }} >
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Finalize sua compra
               </h3>
@@ -159,10 +123,7 @@ const Funcionamento = () => {
               </p>
             </div>
 
-            <div 
-              className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto"
-              style={{ borderRadius: '8px' }}
-            >
+            <div className="w-[250px] h-[150px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col mx-auto" style={{ borderRadius: '8px' }}>
               <h3 className="text-[16px] font-poppins font-bold text-[#61372F] text-center mb-2">
                 Retire na loja ou receba em casa
               </h3>
