@@ -31,135 +31,81 @@ const Equipamentos = () => {
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 (ESP-32 DEVKIT)</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={esp32} 
-                alt="ESP32" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={esp32} alt="ESP32" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESP32 CAMERA</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={esp32Cam} 
-                alt="ESP32 Camera" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={esp32Cam} alt="ESP32 Camera" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">TABLET ANDROID</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={TabletAndroid} 
-                alt="Tablet Android" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={TabletAndroid} alt="Tablet Android" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">ESPELHO COM MOLDURA</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={EspelhoMoldura} 
-                alt="Espelho com Moldura" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={EspelhoMoldura} alt="Espelho com Moldura" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">FITA LED 5M + FONTE</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={Led} 
-                alt="Fita LED" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={Led} alt="Fita LED" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">CABO MICRO USB</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={Cabo} 
-                alt="Cabo Micro USB" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={Cabo} alt="Cabo Micro USB" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ANTI-FURTO</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={Suporte} 
-                alt="Suporte Anti-Furto" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={Suporte} alt="Suporte Anti-Furto" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SUPORTE ESPELHO</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={SuporteEspelho} 
-                alt="Suporte Espelho" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={SuporteEspelho} alt="Suporte Espelho" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col items-center px-4">
           <h3 className="text-[#61372F] font-poppins font-bold text-center mb-3 text-sm">SENSOR ULTRASSÔNICO</h3>
-          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4"
-               style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
-            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center"
-                 style={{ width: '200px', height: '200px' }}>
-              <img 
-                src={Sensor} 
-                alt="Sensor Ultrassônico" 
-                className="w-full h-full object-cover"
-              />
+          <div className="bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] rounded-lg p-3 flex items-center justify-center mx-4" style={{ width: '280px', height: '300px', maxWidth: '100%' }}>
+            <div className="bg-[#FAE6DD] border-[1.8px] border-[#CDA6A2] rounded-lg overflow-hidden flex items-center justify-center" style={{ width: '200px', height: '200px' }}>
+              <img src={Sensor} alt="Sensor Ultrassônico" className="w-full h-full object-cover"/>
             </div>
           </div>
         </div>
