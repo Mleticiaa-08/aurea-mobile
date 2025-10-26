@@ -3,8 +3,15 @@ import React from 'react';
 const Jogo = () => {
   return (
     <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-24 pb-10 md:pt-32 md:pb-16">
+      {/* Adicionando a fonte Poppins via tag style */}
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        `}
+      </style>
       
-      <h2 className="text-[22px] md:text-[28px] font-playfair font-bold text-[#61372F] text-center mb-4 md:mb-6">
+      <h2 className="text-[22px] md:text-[28px] font-playfair font-bold text-[#61372F] text-center mb-4 md:mb-6" style={{fontFamily: "'Playfair Display', serif"}}>
         ÁUREA - O ESTILO EM CADA ERA
       </h2>
 
@@ -13,12 +20,12 @@ const Jogo = () => {
         <div className="w-16 h-16 bg-[#FAE6DD] border-2 border-[#61372F] rounded-full flex items-center justify-center mb-3">
           <span className="text-[30px] text-[#61372F]">▶</span>
         </div>
-        <p className="text-[12px] font-poppins font-light text-[#61372F] text-center">
+        <p className="text-[12px] font-light text-[#61372F] text-center" style={{fontFamily: "'Poppins', sans-serif"}}>
           Vídeo demonstrativo do jogo
         </p>
       </div>
 
-      <p className="text-[14px] md:text-[16px] font-poppins text-[#61372F] text-center mb-8 max-w-md md:max-w-2xl">
+      <p className="text-[14px] md:text-[16px] text-[#61372F] text-center mb-8 max-w-md md:max-w-2xl" style={{fontFamily: "'Poppins', sans-serif"}}>
         Você é Lele, Bibi, Isa ou Elle, herdeira de costureiras que viam a moda como resistência. 
         Ao tocar um espelho antigo, é sugada para uma linha do tempo corrompida pelo Monotonia. 
         Sua missão é viajar por décadas, enfrentar padrões opressores e libertar a moda.
@@ -26,7 +33,7 @@ const Jogo = () => {
 
       <div className="w-full max-w-4xl space-y-8 md:space-y-12">
         
-        <h3 className="text-[23px] md:text-[28px] font-playfairsc font-bold italic text-[#61372F] text-center mb-6 md:mb-10">
+        <h3 className="text-[23px] md:text-[28px] font-bold italic text-[#61372F] text-center mb-6 md:mb-10" style={{fontFamily: "'Playfair Display', serif"}}>
           VIAGEM PELAS DÉCADAS
         </h3>
 
@@ -34,74 +41,65 @@ const Jogo = () => {
    
           <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col"
             style={{ borderRadius: '8px' }}>
-            <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
+            <h4 className="text-[14px] md:text-[16px] font-bold text-[#61372F] text-center mb-1" style={{fontFamily: "'Poppins', sans-serif"}}>
               1920S
             </h4>
-            <h5 className="text-[12px] md:text-[14px] font-poppins font-semibold text-[#61372F] text-center mb-2">
+            <h5 className="text-[12px] md:text-[14px] font-semibold text-[#61372F] text-center mb-2" style={{fontFamily: "'Poppins', sans-serif"}}>
               A ERA DO SILÊNCIO<br />ESTRONDOSO
             </h5>
-            <p className="text-[10px] md:text-[11px] font-poppins font-light text-[#61372F] text-center">
+            <p className="text-[10px] md:text-[11px] font-light text-[#61372F] text-center" style={{fontFamily: "'Poppins', sans-serif"}}>
               Dançar era um ato de rebelião. As frappas romperam com padrões – o agora cabe a você devolver o brilho e o jara e essa década esquecida.
             </p>
           </div>
 
-        
-
           <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col"
             style={{ borderRadius: '8px' }}>
-            <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
+            <h4 className="text-[14px] md:text-[16px] font-bold text-[#61372F] text-center mb-1" style={{fontFamily: "'Poppins', sans-serif"}}>
               1980S
             </h4>
-            <h5 className="text-[12px] md:text-[14px] font-poppins font-semibold text-[#61372F] text-center mb-2">
+            <h5 className="text-[12px] md:text-[14px] font-semibold text-[#61372F] text-center mb-2" style={{fontFamily: "'Poppins', sans-serif"}}>
               CORES CONTRA<br />A CONFORMIDADE
             </h5>
-            <p className="text-[10px] md:text-[11px] font-poppins font-light text-[#61372F] text-center">
+            <p className="text-[10px] md:text-[11px] font-light text-[#61372F] text-center" style={{fontFamily: "'Poppins', sans-serif"}}>
               O neon não era só estática – era resistência contra o irmão da padronização. Sua música devolve: cor, som e atitude da nua.
             </p>
           </div>
 
           <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col"
             style={{ borderRadius: '8px' }}>
-            <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
+            <h4 className="text-[14px] md:text-[16px] font-bold text-[#61372F] text-center mb-1" style={{fontFamily: "'Poppins', sans-serif"}}>
               2000S
             </h4>
-            <h5 className="text-[12px] md:text-[14px] font-poppins font-semibold text-[#61372F] text-center mb-2">
+            <h5 className="text-[12px] md:text-[14px] font-semibold text-[#61372F] text-center mb-2" style={{fontFamily: "'Poppins', sans-serif"}}>
               O BRILHO<br />DIGIT@L
             </h5>
-            <p className="text-[10px] md:text-[11px] font-poppins font-light text-[#61372F] text-center">
+            <p className="text-[10px] md:text-[11px] font-light text-[#61372F] text-center" style={{fontFamily: "'Poppins', sans-serif"}}>
               Chamaram de cafona, mas era revolução. O glitter, o cyber e o espério votaram por provar que autenticidade nunca sai de moda.
             </p>
           </div>
 
-          <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col mb-6 md:mb-0 mb-8 mt-1"
+          <div className="w-full max-w-[160px] md:max-w-none mx-auto h-[210px] md:h-[240px] bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-3 flex flex-col md:mb-0 mb-8 mt-1"
             style={{ borderRadius: '8px' }}>
-            <h4 className="text-[14px] md:text-[16px] font-poppins font-bold text-[#61372F] text-center mb-1">
+            <h4 className="text-[14px] md:text-[16px] font-bold text-[#61372F] text-center mb-1" style={{fontFamily: "'Poppins', sans-serif"}}>
               FUTURO
             </h4>
-            <h5 className="text-[12px] md:text-[14px] font-poppins font-semibold text-[#61372F] text-center mb-2">
+            <h5 className="text-[12px] md:text-[14px] font-semibold text-[#61372F] text-center mb-2" style={{fontFamily: "'Poppins', sans-serif"}}>
               A ERA DO<br />NÃO-ESTILO
             </h5>
-            <p className="text-[10px] md:text-[11px] font-poppins font-light text-[#61372F] text-center">
-              No futuro, tudo se ajuda. Mas, quando ninguém mais era quem dava as destaca? Hora de planar o caos criativo no coração da partilaga.
+            <p className="text-[10px] md:text-[11px] font-light text-[#61372F] text-center" style={{fontFamily: "'Poppins', sans-serif"}}>
+              No futuro, tudo se ajuda. Mas, quando ninguém mais era quem dava as destaca? Hora de planar o caos creativo no coração da partilaga.
             </p>
           </div>
-          
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-4 md:gap-8 md:justify-center md:mt-6">
-                  
-          <div className="hidden md:block"></div>
         </div>
 
         <div className="w-full flex justify-center mt-8 md:mt-10">
           <button className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#61372F] rounded-lg flex items-center justify-center"
             style={{ borderRadius: '6px' }}>
-            <span className="text-[14px] md:text-[16px] font-poppins font-bold text-[#FAE6DD]">
+            <span className="text-[14px] md:text-[16px] font-bold text-[#FAE6DD]" style={{fontFamily: "'Poppins', sans-serif"}}>
               JOGAR AGORA
             </span>
           </button>
         </div>
-
       </div>
     </div>
   );
