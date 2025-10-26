@@ -10,7 +10,6 @@ import gabriela from '../assets/Gabriela.png';
 const HeroSection = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Verificar se está no modo escuro
   React.useEffect(() => {
     const checkDarkMode = () => {
       setIsDarkMode(document.documentElement.classList.contains('dark'));
@@ -18,7 +17,6 @@ const HeroSection = () => {
     
     checkDarkMode();
     
-    // Observar mudanças na classe dark
     const observer = new MutationObserver(checkDarkMode);
     observer.observe(document.documentElement, { 
       attributes: true,
