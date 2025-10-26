@@ -25,17 +25,12 @@ const Header = () => {
       <header className="w-full py-4 px-6 fixed top-0 left-0 z-40 bg-[#FAE6DD] dark:bg-[#704943] transition-colors duration-300">
         <div className="flex justify-between items-center max-w-6xl mx-auto">
   
-          <Link to="/" className="text-3xl lg:text-4xl font-playfair text-[#61372F] dark:text-white transition-colors duration-300">
-            ÁUREA
-          </Link>
+          <Link to="/" className="text-3xl lg:text-4xl font-playfair text-[#61372F] dark:text-white transition-colors duration-300"> ÁUREA </Link>
         
           <nav className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-[#61372F] dark:text-white text-lg font-poppins hover:text-[#7A4A42] dark:hover:text-[#B39889] transition-colors duration-300">
-              Home
-            </Link>
-            <Link to="/jogo" className="text-[#61372F] dark:text-white text-lg font-poppins hover:text-[#7A4A42] dark:hover:text-[#B39889] transition-colors duration-300">
-              Jogo
-            </Link>
+            <Link to="/" className="text-[#61372F] dark:text-white text-lg font-poppins hover:text-[#7A4A42] dark:hover:text-[#B39889] transition-colors duration-300"> Home </Link>
+            <Link to="/jogo" className="text-[#61372F] dark:text-white text-lg font-poppins hover:text-[#7A4A42] dark:hover:text-[#B39889] transition-colors duration-300"> Jogo </Link>
+
             <Link to="/equipamentos" className="text-[#61372F] dark:text-white text-lg font-poppins hover:text-[#7A4A42] dark:hover:text-[#B39889] transition-colors duration-300">
               Equipamentos
             </Link>
@@ -45,7 +40,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            {/* Botão de contraste */}
+     
             <button
               onClick={toggleDarkMode}
               className="hidden md:flex w-10 h-10 bg-[#DEC8BC] dark:bg-[#B39889] rounded-full items-center justify-center shadow-md hover:scale-110 transition-transform duration-300"
@@ -58,7 +53,6 @@ const Header = () => {
               />
             </button>
 
-            {/* Menu mobile */}
             <div className="flex items-center gap-4 md:hidden">
               <button
                 onClick={toggleDarkMode}
