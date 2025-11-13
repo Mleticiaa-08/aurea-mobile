@@ -1,43 +1,27 @@
 import React from 'react';
+import aureaVideo from "../assets/aurea2.mp4"; 
 
 const Jogo = () => {
   return (
     <div className="min-h-screen bg-[#FAE6DD] flex flex-col items-center px-4 pt-24 pb-10 md:pt-32 md:pb-16">
-      {/* Fonte Poppins e Playfair Display */}
+    
       <style>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-          @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-        `}
+        {` @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap');`}
       </style>
       
       <h2
-        className="text-[22px] md:text-[28px] font-playfair font-bold text-[#61372F] text-center mb-4 md:mb-6"
-        style={{ fontFamily: "'Playfair Display', serif" }}
-      >
-        ÁUREA - O ESTILO EM CADA ERA
-      </h2>
+        className="text-[24px] md:text-[32px] font-playfair font-bold text-[#61372F] text-center mb-4 md:mb-8" style={{ fontFamily: "'Playfair Display', serif" }}>
+        ÁUREA - O ESTILO EM CADA ERA</h2>
                                                               
       <div
-        className="w-full max-w-md md:max-w-lg bg-[#DEC8BC] border-[1.8px] border-[#CDA6A2] p-4 flex flex-col items-center justify-center mb-6 md:mb-8"
-        style={{ borderRadius: '8px', height: '200px' }}
-      >
-        <div className="w-16 h-16 bg-[#FAE6DD] border-2 border-[#61372F] rounded-full flex items-center justify-center mb-3">
-          <span className="text-[30px] text-[#61372F]">▶</span>
-        </div>
-        <p
-          className="text-[12px] font-light text-[#61372F] text-center"
-          style={{ fontFamily: "'Poppins', sans-serif" }}
-        >
-          Vídeo demonstrativo do jogo
+        className="w-full max-w-2x1 mx-auto md:max-w-lg p-4 flex flex-col items-center justify-center mb-6 md:mb-8" style={{ borderRadius: '8px', height: '200px' }} >
+          <video autoPlay muted loop playsInline src={aureaVideo} className='w-full h-auto rounded-lg shadow-x1'/>
+        <p className="text-[12px] font-light text-[#61372F] text-center" style={{ fontFamily: "'Poppins', sans-serif" }} >
         </p>
       </div>
 
-      <p
-        className="text-[14px] md:text-[16px] text-[#61372F] text-center mb-8 max-w-md md:max-w-2xl"
-        style={{ fontFamily: "'Poppins', sans-serif" }}
-      >
-        Você é Lele, Bibi, Isa ou Elle, herdeira de costureiras que viam a moda como resistência. 
+      <p className="text-[14px] md:text-[16px] text-[#61372F] text-center mb-2 mt-4 max-w-md md:max-w-2xl"style={{ fontFamily: "'Poppins', sans-serif" }} >
+        Você é Lele, Bibi, Isa ou Elle, a erdeira de costureiras que viam a moda como resistência. 
         Ao tocar um espelho antigo, é sugada para uma linha do tempo corrompida pelo Monotonia. 
         Sua missão é viajar por décadas, enfrentar padrões opressores e libertar a moda.
       </p>
@@ -45,9 +29,7 @@ const Jogo = () => {
       <div className="w-full max-w-4xl space-y-8 md:space-y-12">
         
         <h3
-          className="text-[23px] md:text-[28px] font-bold italic text-[#61372F] text-center mb-6 md:mb-10"
-          style={{ fontFamily: "'Playfair Display', serif" }}
-        >
+          className="text-[23px] md:text-[28px] font-bold italic text-[#61372F] text-center mb-6 md:mb-10"style={{ fontFamily: "'Playfair Display', serif" }}>
           VIAGEM PELAS DÉCADAS
         </h3>
 
@@ -94,13 +76,8 @@ const Jogo = () => {
           </div>
         </div>
 
-        {/* Botão jogar */}
         <div className="w-full flex justify-center mt-8 md:mt-10">
-          <button
-            className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#61372F] rounded-lg flex items-center justify-center"
-            style={{ borderRadius: '6px' }}
-            onClick={() => window.open('https://gd.games/dani_elle/aurea---o-estilo-em-cada-era', '_blank')}
-          >
+          <button className="w-[140px] md:w-[160px] h-12 md:h-14 bg-[#61372F] rounded-lg flex items-center justify-center" style={{ borderRadius: '6px' }} onClick={() => window.open('https://gd.games/dani_elle/aurea---o-estilo-em-cada-era', '_blank')}>
             <span className="text-[14px] md:text-[16px] font-bold text-[#FAE6DD]" style={{ fontFamily: "'Poppins', sans-serif" }}>
               JOGAR AGORA
             </span>
